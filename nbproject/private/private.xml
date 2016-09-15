@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/Applications/XAMPP/xamppfiles/htdocs/gitProjects/gym-back-end/application/views/master/header.php</file>
+            <file>file:/Applications/XAMPP/xamppfiles/htdocs/gitProjects/gym-back-end/application/config/config.php</file>
+            <file>file:/Applications/XAMPP/xamppfiles/htdocs/gitProjects/gym-back-end/application/views/users_form/user_registration.php</file>
+            <file>file:/Applications/XAMPP/xamppfiles/htdocs/gitProjects/gym-back-end/application/controllers/Registre.php</file>
+            <file>file:/Applications/XAMPP/xamppfiles/htdocs/gitProjects/gym-back-end/application/config/routes.php</file>
+            <file>file:/Applications/XAMPP/xamppfiles/htdocs/gitProjects/gym-back-end/application/models/bd_usuari.php</file>
+            <file>file:/Applications/XAMPP/xamppfiles/htdocs/gitProjects/gym-back-end/application/config/database.php</file>
+            <file>file:/Applications/XAMPP/xamppfiles/htdocs/gitProjects/gym-back-end/application/views/master/footer.php</file>
+        </group>
+    </open-files>
+</project-private>
