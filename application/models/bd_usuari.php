@@ -37,5 +37,15 @@ class Bd_usuari extends CI_Model {
             return false;
         }
     }
+    
+    function updateEsActiuUsuari($mailUsuari, $actiu) {
+        $this->db->set('es_actiu', $actiu, FALSE);
+        $this->db->where('email', $mailUsuari);
+        $this->db->update('usuari_web'); 
+    }
+    
+    function updateDateLastConnectionUsuari($mailUsuari) {
+        $this->db->query('UPDATE usuari_web SET data_ultima_connexio = '.$this->db->escape(date("Y-m-d H:i:s")).' WHERE email = '.$this->db->escape($mailUsuari));
+    }
      
 }
