@@ -1,0 +1,8 @@
+
+.no-float {
+    float: none!important;
+}
+
+.no-margin-left {
+    margin-left: 0px!important;
+}
