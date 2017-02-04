@@ -54,12 +54,12 @@ $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
 /** VIEWS **/
-$route['sign-up-(:any)'] = 'Registre/sign_up/$1';
+$route['sign-up-(:any)'] = 'Registre/signUpView/$1';
 $route['admin'] = 'Admin/logInView';
 $route['admin/menu'] = 'Admin/menuAdminView';
 
 /** CONTROLLER FUNCTIONS **/
-$route['register-user'] = 'Registre/addUser';
-$route['register-trainer'] = 'Registre/addTrainer';
+$route['register-user'] = 'Registre/registerUserAction';
+$route['register-trainer'] = 'Registre/registerTrainerAction';
 $route['logIn-action'] = 'Admin/logInAction';
 $route['logOut-action'] = 'Admin/logOutAction';
